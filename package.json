@@ -1,18 +1,21 @@
 {
   "name": "stylelint-config-novac",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "author": "Sertaç Onay <sertac@onay.me> (sertac.onay.me)",
   "description": "",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
     "prettier": "prettier --write .",
-    "publish": "np"
+    "np": "np"
   },
   "keywords": [],
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.8.1",
