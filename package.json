@@ -1,22 +1,32 @@
 {
   "name": "stylelint-config-novac",
   "version": "0.1.3",
-  "author": "Sertaç Onay <sertac@onay.me> (sertac.onay.me)",
+  "author": "Sertaç Onay <sertac@onay.me> (https://sertac.onay.me)",
   "description": "",
   "main": "index.js",
+  "keywords": [],
+  "contributors": [],
+  "engines": {},
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint .",
     "prettier": "prettier --write .",
     "np": "np"
   },
-  "keywords": [],
-  "files": [
-    "index.js"
-  ],
+  "bugs": {
+    "url": "https://github.com/sertaconay/stylelint-config-novac/issues"
+  },
+  "homepage": "https://github.com/sertaconay/stylelint-config-novac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sertaconay/stylelint-config-novac.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
