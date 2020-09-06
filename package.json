@@ -21,9 +21,6 @@
     "type": "git",
     "url": "https://github.com/sertaconay/stylelint-config-novac.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "files": [
     "index.js"
   ],
