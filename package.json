@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-novac",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sertaç Onay <sertac@onay.me> (sertac.onay.me)",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,9 @@
     "publish": "np"
   },
   "keywords": [],
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.8.1",
