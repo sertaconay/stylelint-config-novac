@@ -6,9 +6,11 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "publish": "np"
   },
   "keywords": [],
+  "files": ["index.js"],
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.8.1",
