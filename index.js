@@ -57,7 +57,7 @@ module.exports = {
     'no-duplicate-selectors': true,
     'no-empty-source': true,
     'no-extra-semicolons': true,
-    'no-invalid-double-slash-comments': false,
+    // 'no-invalid-double-slash-comments': false,
 
     // LIMIT LANGUAGE FEATURES
     // Alpha-value
@@ -74,7 +74,7 @@ module.exports = {
         ignore: ['inside-function'],
       },
     ],
-    'color-no-hex': false,
+    // 'color-no-hex': false,
 
     // Length
     'length-zero-no-unit': [
@@ -88,7 +88,7 @@ module.exports = {
     'font-weight-notation': 'numeric',
 
     // Function
-    'function-url-no-scheme-relative': false,
+    // 'function-url-no-scheme-relative': false,
 
     // Number
     'number-max-precision': 3,
@@ -185,7 +185,7 @@ module.exports = {
   // Declaration
   'declaration-bang-space-after': 'never',
   'declaration-bang-space-before': 'always',
-  'declaration-colon-newline-after': 'always-multi-line',
+  // 'declaration-colon-newline-after': 'always-multi-line',
   'declaration-colon-space-after': 'always',
   'declaration-colon-space-before': 'never',
   'declaration-empty-line-before': 'never',
