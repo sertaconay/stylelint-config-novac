@@ -105,8 +105,9 @@ module.exports = {
     // Declaration
     // 'declaration-block-no-redundant-longhand-properties': false,
     // 'declaration-no-important': false,
-    'declaration-property-unit-disallowed-list': {
-      'font-size': ['px'],
+    'declaration-property-unit-blacklist': {
+      '/^font/': ['px'],
+      '/^animation/': ['s'],
     },
 
     // Declaration block
