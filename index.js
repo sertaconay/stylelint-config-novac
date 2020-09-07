@@ -55,7 +55,7 @@ module.exports = {
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
-    'no-empty-source': true,
+    // 'no-empty-source': true,
     'no-extra-semicolons': true,
     // 'no-invalid-double-slash-comments': false,
 
@@ -114,10 +114,10 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
 
     // Selector
-    'selector-max-attribute': 2,
-    'selector-max-class': 2,
+    'selector-max-attribute': 3,
+    'selector-max-class': 3,
     'selector-max-combinators': 3,
-    'selector-max-compound-selectors': 3,
+    'selector-max-compound-selectors': 4,
     'selector-max-empty-lines': 0,
     'selector-max-id': 1,
     'selector-max-pseudo-class': 2,
