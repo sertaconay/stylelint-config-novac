@@ -9,7 +9,7 @@ module.exports = {
     'font-family-no-missing-generic-family-keyword': true,
 
     // Function
-    'function-calc-no-invalid': true,
+    // 'function-calc-no-invalid': true, // removed
     'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
 
@@ -105,7 +105,7 @@ module.exports = {
     // Declaration
     // 'declaration-block-no-redundant-longhand-properties': false,
     // 'declaration-no-important': false,
-    'declaration-property-unit-blacklist': {
+    'declaration-property-unit-disallowed-list': {
       '/^font/': ['px'],
       '/^animation/': ['s'],
     },

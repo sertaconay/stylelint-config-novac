@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-novac",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "author": "Sertaç Onay <sertac@onay.me> (https://sertac.onay.me)",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,8 @@
   "scripts": {
     "eslint": "eslint .",
     "prettier": "prettier --write .",
-    "np": "np"
+    "np": "np",
+    "prepare": "husky install"
   },
   "bugs": {
     "url": "https://github.com/sertaconay/stylelint-config-novac/issues"
@@ -25,19 +26,14 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.3.0",
-    "jest": "^26.4.2",
-    "lint-staged": "^10.3.0",
-    "np": "^6.5.0",
-    "prettier": "^2.1.1",
-    "stylelint": "^13.7.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "lint-staged": "^12.3.1",
+    "np": "^7.6.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.3.0"
   }
 }
